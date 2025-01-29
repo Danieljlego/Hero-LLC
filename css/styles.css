@@ -10900,25 +10900,4 @@ html {
     color: white;
 }
 
-/* Tier Logos Section */
-.tier-logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px; /* Space between logos */
-    margin: 50px 0;
-}
-
-.tier {
-    text-align: center;
-    max-width: 4500px;
-}
-
-/* Responsive Logo Size */
-.tier-logo {
-    width: 40vw;  /* 20% of viewport width */
-    max-width: 250px;  /* Set a reasonable max size */
-    height: auto;
-}
-
 
