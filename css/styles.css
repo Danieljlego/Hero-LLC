@@ -10847,6 +10847,7 @@ html {
   min-height: 15rem;
 }
 
+/* Retro Header */
 .retro-header {
     background-image: url('https://danieljlego.github.io/Hero-LLC/assets/images/A_seamless_retro_pixel_art_background.png');
     background-size: cover;
@@ -10878,6 +10879,13 @@ html {
     margin: 10px auto;  /* Centers the logos */
 }
 
+/* PC Tier Text Styling */
+.pc-tiers h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 /* Text Colors */
 .text-gold {
     color: #FFD700;
@@ -10894,22 +10902,38 @@ html {
     font-weight: bold;
 }
 
+/* Features, Testimonials, Build Process */
 .features-section, .testimonials-section, .build-process {
     padding: 60px 0;
     text-align: center;
 }
 
+/* Feature & Process Icons */
 .feature-icon, .process-icon {
     font-size: 3rem;
     color: #FFD700;
     margin-bottom: 15px;
 }
 
+/* Testimonials */
 .testimonial {
     max-width: 600px;
     margin: 0 auto 20px;
     font-style: italic;
 }
+
+/* Responsive Grid for Features & Build Process */
+@media (max-width: 768px) {
+    .row > div {
+        margin-bottom: 20px;
+    }
+}
+
+/* Center Content in Features & Build Process */
+.why-choose .row, .build-process .row {
+    justify-content: center;
+}
+
 
 
 
