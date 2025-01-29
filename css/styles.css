@@ -10914,8 +10914,11 @@ html {
     max-width: 4500px;
 }
 
+/* Responsive Logo Size */
 .tier-logo {
-    width: 3050px;  /* Adjust as needed */
-    height: auto;   /* Maintain aspect ratio */
+    width: 20vw;  /* 20% of viewport width */
+    max-width: 250px;  /* Set a reasonable max size */
+    height: auto;
 }
+
 
