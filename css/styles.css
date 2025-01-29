@@ -10852,7 +10852,7 @@ html {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 400px; /* Makes sure the header is visible */
+    min-height: 400px; /* Ensures header is visible */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10863,16 +10863,19 @@ html {
 
 /* PC Tier Section */
 .pc-tiers {
-    background: url('assets/images/A_seamless_retro_pixel_art_background.png') repeat;
+    background: url('https://danieljlego.github.io/Hero-LLC/assets/images/A_seamless_retro_pixel_art_background.png') repeat;
     padding: 60px 0;
     text-align: center;
 }
 
 /* PC Tier Logos */
 .tier-logo {
-    width: 120px; /* Adjust as needed */
-    height: auto;
-    margin-bottom: 15px;
+    width: 18vw;  /* Logos take up 18% of the viewport width */
+    max-width: 275px;  /* Prevents them from getting too large */
+    min-width: 175px;  /* Prevents them from getting too small */
+    height: auto;  /* Maintains aspect ratio */
+    display: block;  /* Ensures proper spacing */
+    margin: 10px auto;  /* Centers the logos */
 }
 
 /* Text Colors */
@@ -10889,16 +10892,6 @@ html {
 .text-bronze {
     color: #CD7F32;
     font-weight: bold;
-}
-
-/* Responsive Tier Logo Size */
-.tier-logo {
-    width: 20vw;  /* Logos take up 20% of the viewport width */
-    max-width: 250px;  /* Prevents them from getting too large */
-    min-width: 150px;  /* Prevents them from getting too small */
-    height: auto;  /* Maintains aspect ratio */
-    display: block;  /* Ensures proper spacing */
-    margin: 0 auto;  /* Centers the logos */
 }
 
 
