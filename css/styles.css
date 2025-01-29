@@ -10945,6 +10945,12 @@ html {
     justify-content: center;
 }
 
+/* Navbar Logo */
+.nav-logo {
+    width: 40px; /* Adjust size */
+    height: auto;
+    margin-right: 10px; /* Adds spacing between logo and text */
+}
 
 
 
