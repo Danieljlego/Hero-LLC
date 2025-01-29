@@ -10847,10 +10847,10 @@ html {
   min-height: 15rem;
 }
 
-/* Retro Pixel Art Background for Header */
 .retro-header {
-    background: url('/assets/images/A_seamless_retro_pixel_art_background.png') repeat;
+    background: url('https://danieljlego.github.io/Hero-LLC/assets/images/A_seamless_retro_pixel_art_background.png') repeat;
     background-size: cover;
+    background-position: center;
     text-align: center;
     padding: 80px 0;
     color: white;
