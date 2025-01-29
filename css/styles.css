@@ -10851,9 +10851,9 @@ html {
 .retro-header {
     background-image: url('https://danieljlego.github.io/Hero-LLC/assets/images/A_seamless_retro_pixel_art_background.png');
     background-size: cover;
-    background-position: top center;  /* Ensures the background starts from the top */
+    background-position: center top;  /* Keeps the background fixed */
     background-repeat: no-repeat;
-    min-height: 400px; /* Ensures header is visible */
+    min-height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10863,23 +10863,21 @@ html {
     position: relative;
 }
 
-/* Smooth Transition Between Header and Tiers */
+/* Ensure Background Stops at the Header */
 .retro-header::after {
     content: "";
-    display: block;
-    height: 20px; /* Creates a smooth transition */
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    position: absolute;
+    bottom: -1px;  /* Creates a natural ending */
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #000 100%);
 }
 
 /* PC Tier Section */
 .pc-tiers {
-    background-image: url('https://danieljlego.github.io/Hero-LLC/assets/images/A_seamless_retro_pixel_art_background.png');
-    background-size: cover; /* Ensures continuity from the header */
-    background-position: bottom center; /* Aligns it to match the header */
-    background-repeat: no-repeat;
+    background: none; /* REMOVE THE BACKGROUND */
     padding: 60px 0;
     text-align: center;
-    position: relative; /* Helps with stacking */
 }
 
 /* PC Tier Logos */
