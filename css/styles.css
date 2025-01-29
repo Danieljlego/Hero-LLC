@@ -10849,7 +10849,7 @@ html {
 
 /* Retro Pixel Art Background for Header */
 .retro-header {
-    background: url('../assets/A_seamless_retro_pixel_art_background.png') repeat;
+    background: url('/assets/A_seamless_retro_pixel_art_background.png') repeat;
     background-size: cover;
     text-align: center;
     padding: 80px 0;
