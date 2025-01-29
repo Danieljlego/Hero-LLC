@@ -10916,7 +10916,7 @@ html {
 
 /* Responsive Logo Size */
 .tier-logo {
-    width: 20vw;  /* 20% of viewport width */
+    width: 40vw;  /* 20% of viewport width */
     max-width: 250px;  /* Set a reasonable max size */
     height: auto;
 }
