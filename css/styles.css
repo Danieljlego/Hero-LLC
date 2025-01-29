@@ -10961,6 +10961,14 @@ html {
     text-align: center;
 }
 
+/* Transparent Header Box */
+.header-box {
+    background: rgba(0, 0, 0, 0.6); /* Black with 60% transparency */
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
 
 
 
