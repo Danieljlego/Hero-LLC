@@ -10969,6 +10969,22 @@ html {
     border-radius: 10px;
 }
 
+/* Transparent Header Box */
+.header-box {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+/* Team Photos */
+.team-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
 
 
 
