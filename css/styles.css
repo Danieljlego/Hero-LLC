@@ -10952,5 +10952,17 @@ html {
     margin-right: 10px; /* Adds spacing between logo and text */
 }
 
+/* Header Text Overlay */
+.header-overlay {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    padding: 40px; /* Adds spacing around the text */
+    border-radius: 10px; /* Slight rounding for a modern feel */
+    display: inline-block; /* Keeps it tight around the text */
+    text-align: center;
+}
+
+
+
+
 
 
