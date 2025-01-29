@@ -10891,5 +10891,15 @@ html {
     font-weight: bold;
 }
 
+/* Responsive Tier Logo Size */
+.tier-logo {
+    width: 20vw;  /* Logos take up 20% of the viewport width */
+    max-width: 250px;  /* Prevents them from getting too large */
+    min-width: 150px;  /* Prevents them from getting too small */
+    height: auto;  /* Maintains aspect ratio */
+    display: block;  /* Ensures proper spacing */
+    margin: 0 auto;  /* Centers the logos */
+}
+
 
 
