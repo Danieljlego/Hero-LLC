@@ -10911,11 +10911,11 @@ html {
 
 .tier {
     text-align: center;
-    max-width: 250px;
+    max-width: 450px;
 }
 
 .tier-logo {
-    width: 150px;  /* Adjust as needed */
+    width: 350px;  /* Adjust as needed */
     height: auto;   /* Maintain aspect ratio */
 }
 
