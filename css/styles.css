@@ -10860,3 +10860,34 @@ html {
     color: white;
     padding: 80px 0;
 }
+
+/* PC Tier Section */
+.pc-tiers {
+    background: url('assets/images/A_seamless_retro_pixel_art_background.png') repeat;
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* PC Tier Logos */
+.tier-logo {
+    width: 120px; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Text Colors */
+.text-gold {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.text-silver {
+    color: #C0C0C0;
+    font-weight: bold;
+}
+
+.text-bronze {
+    color: #CD7F32;
+    font-weight: bold;
+}
+
