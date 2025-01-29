@@ -10894,5 +10894,22 @@ html {
     font-weight: bold;
 }
 
+.features-section, .testimonials-section, .build-process {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.feature-icon, .process-icon {
+    font-size: 3rem;
+    color: #FFD700;
+    margin-bottom: 15px;
+}
+
+.testimonial {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    font-style: italic;
+}
+
 
 
